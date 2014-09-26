@@ -7,6 +7,7 @@ public class People {
 	private String job;
 	private String hobby;
 	privtae String sn;
+	private String phone;
 	
 	public String getHobby() {
 		return hobby;

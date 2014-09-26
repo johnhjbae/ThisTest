@@ -6,6 +6,7 @@ public class People {
 	private int age;
 	private String job;
 	private String hobby;
+	privtae String sn;
 	
 	public String getHobby() {
 		return hobby;

@@ -5,6 +5,14 @@ public class People {
 	private String gender;
 	private int age;
 	private String job;
+	private String hobby;
+	
+	public String getHobby() {
+		return hobby;
+	}
+	public void setHobby(String hobby) {
+		this.hobby = hobby;
+	}
 	public String getName() {
 		return name;
 	}

@@ -6,7 +6,14 @@ public class People {
 	private int age;
 	private String job;
 	private String hobby;
+	private String address;
 	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public String getHobby() {
 		return hobby;
 	}

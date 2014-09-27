@@ -8,12 +8,10 @@ public class People {
 	private String hobby;
 	private String address;
 	
-	public String getAddress() {
-		return address;
-	}
-	public void setAddress(String address) {
-		this.address = address;
-	}
+	private String sn;
+	private String phone;
+	private String cellphone;
+
 	public String getHobby() {
 		return hobby;
 	}
@@ -50,6 +48,13 @@ public class People {
 		if(name == null ) name = "John Doe";
 		return "Hi My name is "+getName();
 	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
 	
 	
 }

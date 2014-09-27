@@ -8,7 +8,7 @@ public class People {
 	private String hobby;
 	private String sn;
 	private String phone;
-	
+	private String cellphone;
 	public String getHobby() {
 		return hobby;
 	}
